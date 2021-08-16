@@ -12,3 +12,10 @@ EL parrafo de arriba nos dice que el new ocupa espacio en el heap y que la liber
 
 Luego seguir leyendo https://www.c-sharpcorner.com/UploadFile/b08196/object-lifetime-in-net-framework/
 
+El equivalente el VB.NET https://stackoverflow.com/questions/3631359/what-is-the-vb-net-equivalent-to-cs-using-block
+
+Using conn As New SqlConnection
+    ....
+End Using
+
+
