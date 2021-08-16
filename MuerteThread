@@ -1,0 +1,1 @@
+A thread will terminate when there's no more code to execute, or more specifically when the method you specify when you create thread returns.
