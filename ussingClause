@@ -18,4 +18,6 @@ Using conn As New SqlConnection
     ....
 End Using
 
+Cuando salgo del using se supone que las variables fueron "dispose" adecuadamente.
+
 
