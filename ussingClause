@@ -1,0 +1,14 @@
+What is Idisposable.
+IDisposable is an interface that contains a single method, Dispose(), for releasing unmanaged resources, like files, streams, database connections and so on.
+Que quiere decir?
+
+The class is a blueprint that describes how an instance of this type will look and feel in memory. This instance is the object of that class type. A block of memory is allocated when the new keyword is used to instantiate the new object and the constructor is called. This block of memory is big enough to hold the object. When we declare a class variable it is allocated on the stack and the time it hits a new keyword and then it is allocated on the heap. In other words, when an object of a class is created it is allocated on the heap with the C# new keyword operator. However, a new keyword returns a reference to the object on the heap, not the actual object itself. This reference variable is stored on the stack for further use in applications. 
+
+Stack vs Heap, el parrafo anterior da una suerte de diferenciacion.
+
+The key pillar of the .NET Framework is the automatic garbage collection that manages memory for all .NET applications. When an object is instantiated the garbage collector will destroy the object when it is no longer needed. There is no explicit memory deallocation since the garbage collector monitors unused objects and does a collection to free up memory that is an automatic process. The Garbage Collector removes objects from the heap when they are unreachable by any part of your codebase. The .Net garbage collector will compact empty blocks of memory for the purpose of optimization. 
+
+EL parrafo de arriba nos dice que el new ocupa espacio en el heap y que la liberacion es automatica cuando deja de usarse. No hay explicita forma de liberar lo que no me queda del todo claro es cuando se considera "dejado de usar".....
+
+Luego seguir leyendo https://www.c-sharpcorner.com/UploadFile/b08196/object-lifetime-in-net-framework/
+
